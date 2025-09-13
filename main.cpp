@@ -31,13 +31,13 @@ int main()
      else if (numeroAleatorio3>= numeroAleatorio2 && numeroAleatorio2 >= numeroAleatorio1){
 
         
-        cout << "Orden descendiente:" << numeroAleatorio1<<" >= " << numeroAleatorio2<<" >= " << numeroAleatorio3<<"\n";
+        cout << "Orden descendiente:" << numeroAleatorio3<<" >= " << numeroAleatorio2<<" >= " << numeroAleatorio1<<"\n";
     }
 
      else if (numeroAleatorio2>= numeroAleatorio1 && numeroAleatorio1 >= numeroAleatorio3){
     
 
-        cout << "Orden descendiente:" << numeroAleatorio3<<" >= " << numeroAleatorio2<<" >= " << numeroAleatorio1<<"\n";
+        cout << "Orden descendiente:" << numeroAleatorio2<<" >= " << numeroAleatorio1<<" >= " << numeroAleatorio3<<"\n";
     
     }
      else if (numeroAleatorio2 >= numeroAleatorio3 && numeroAleatorio3 >= numeroAleatorio1){
